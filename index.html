@@ -11,6 +11,9 @@
     <link rel="stylesheet" href="./css/normalize.css">
     <link rel="stylesheet" href="./css/style.css">
     <link href="https://fonts.googleapis.com/css?family=Montserrat:regular,500,600,700,800" rel="stylesheet" />
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css"/>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
 </head>
 <body>
     <header class="header">
@@ -32,5 +35,49 @@
             </div>
         </div>
     </header>
+
+    <main class="main">
+        <section class="hero">
+            <div class="container hero__container">
+              <div class="hero__swiper">
+                <div class="hero__content">
+                  <h1 class="hero__heading">Проектные решения любой сложности</h1>
+                  <p class="hero__text">Есть над чем задуматься: базовые сценарии поведения пользователей и по сей день остаются уделом проектантов</p>
+                  <button class="btn hero__btn">Заказать расчёт</button>
+                </div>
+                <!-- Slider main container -->
+                <div class="swiper">
+                  <!-- Additional required wrapper -->
+                  <div class="swiper-wrapper">
+                    <!-- Slides -->
+                    <div class="swiper-slide" style="background-image: url('./img/hero/hero-pic-1920-1.png');"></div>
+                    <div class="swiper-slide" style="background-image: url('./img/hero/hero-pic-1920-2.png');"></div>
+                    <div class="swiper-slide" style="background-image: url('./img/hero/hero-pic-1920-3.png');"></div>
+                  </div>
+                  <!-- If we need pagination -->
+                  <div class="swiper-pagination"></div>
+                </div>
+              </div>
+            </div>
+          </section>
+    </main>
+
+    <script>
+      const swiper = new Swiper('.swiper', {
+        // Optional parameters
+        loop: true,
+  
+        // If we need pagination
+        pagination: {
+          el: '.swiper-pagination',
+          clickable: true,
+        },
+  
+        // And if we need scrollbar
+        scrollbar: {
+          hide: true,
+        },
+      });
+    </script>
 </body>
 </html>
