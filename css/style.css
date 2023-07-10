@@ -30,6 +30,15 @@ h3 {
   margin: 0;
 }
 
+.btn {
+    width: 280px;
+    height: 78px;
+    padding: 0;
+    border: 0;
+    border-radius: 16px;
+    background: #F90;
+}
+
 .container {
     max-width: 1800px;
     margin: 0 auto;
@@ -116,15 +125,6 @@ h3 {
     color: #FFF;
 }
 
-.btn {
-    width: 280px;
-    height: 78px;
-    padding: 0;
-    border: 0;
-    border-radius: 16px;
-    background: #F90;
-}
-
 .hero__btn {
     text-align: center;
     font-size: 23px;
@@ -163,3 +163,4 @@ h3 {
 .swiper-pagination-bullet-active {
     --swiper-pagination-color: #fff;
 }
+
