@@ -276,3 +276,153 @@ h3 {
 }
 
 /* How */
+.how-container {
+    margin-bottom: 100px;
+    min-height: 623px;
+}
+
+.how__title{
+    margin-bottom: 50px;
+    font-size: 48px;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.tabs {
+    display: flex;
+    margin-bottom: 45px;
+}
+
+.tabs__item:not(:last-child) {
+    margin-right: 85px;
+}
+
+
+.tabs__btn {
+    padding: 0;
+    border: 0;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: normal;
+    background-color: #fff;
+    transition: .2s ease;
+}
+
+.tabs__btn:hover {
+    color: #F90;
+}
+
+.tabs__btn:focus {
+    outline:  2px solid  #E1670E;
+}
+
+.tabs__btn:active {
+    color: #E1670E;
+}
+
+.tab__content-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+
+.tab__content-left {
+    max-width: 758px;
+}
+
+.none {
+   display: none; 
+}
+
+.tab__content-title {
+    margin-bottom: 8px;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 32px;
+}
+
+.tab__content-description {
+    margin-bottom: 18px;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 32px;
+}
+
+.tab__content-btn {
+    display: flex;
+    gap: 32px;
+}
+
+.how__btn {
+    display: block;
+    width: 175px;
+    height: 60px;
+    padding: 19px 38px;
+    text-align: center;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 1.5;
+    color: #FFF;
+    transition: .2s ease;
+}
+
+.how__btn:hover,
+.how__btn:focus {
+    background: #FFB84D;
+}
+
+.how__btn:active {
+    background: #E1670E;
+}
+
+
+.how__btn-contract {
+    display: block;
+    width: 147px;
+    height: 60px;
+    padding: 19px 38px;
+    text-align: center;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.5;
+    border: 1px solid #000;
+    color: #000;
+    background-color: rgba(0, 0, 0, 0);
+    transition: .2s ease;
+}
+
+.how__btn-contract:hover,
+.how__btn-contract:focus {
+    border: 1px solid #666;
+    color: #fff;
+    background: #666;
+}
+
+.how__btn-contract:active {
+    border: 1px solid #000000;
+    background: #000000;
+}
+
+.tab-content__img-one,
+.tab-content__img-two,
+.tab-content__img-three,
+.tab-content__img-four {
+  width: 49.2%;
+  height: 460px;
+}
+
+.tab-content__img-one {
+    background: transparent url('../img/how/how_one.png') no-repeat center center / cover ;
+}
+
+.tab-content__img-two {
+    background: transparent url('../img/how/how_two.png') no-repeat center center / cover ;
+}
+
+.tab-content__img-three {
+    background: transparent url('../img/how/how_three.png') no-repeat center center / cover ;
+}
+
+.tab-content__img-four {
+    background: transparent url('../img/how/how_four.png') no-repeat center center / cover ;
+}
