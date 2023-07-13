@@ -81,6 +81,18 @@ h3 {
     line-height: 1;
     color: #000;
 }
+ .header__nav-link:hover {
+    border-bottom: solid 2px #F90;
+ }
+
+.header__nav-link:focus {
+    outline: solid 2px #F90;
+}
+
+.header__nav-link:active {
+    gap: 7px;
+    border-bottom: solid 2px #E1670E;
+}
 
 .header__search {
     margin-left: 260px;
