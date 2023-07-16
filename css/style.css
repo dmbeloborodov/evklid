@@ -171,10 +171,12 @@ h3 {
     width: 15px;
     height: 15px;
     --swiper-pagination-bullet-horizontal-gap: 10px;
+    background-color: #cacaca;
+    opacity: 1;
 }
 
-.swiper-pagination-bullet-active {
-    --swiper-pagination-color: #fff;
+.hero__swiper .swiper-pagination-bullet-active {
+    background-color: #ffffff;
 }
 
 /* About */
@@ -234,7 +236,7 @@ h3 {
     color: #FFF;
 }
 
-.about__btn{
+.about__btn {
     width: 175px;
     height: 60px;
     padding: 19px 38px;
@@ -247,6 +249,17 @@ h3 {
     background: rgba(0, 0, 0, 0);
     border-radius: 16px;
     border: 3px solid #F90;
+    transition: .2s ease;
+}
+
+.about__btn:hover,
+.about__btn:focus{
+    background: #F90;
+}
+
+.about__btn:active {
+    border: 3px solid #E1670E;
+    background: #E1670E;
 }
 
 .about__info {
@@ -317,7 +330,7 @@ h3 {
     font-weight: 400;
     line-height: normal;
     background-color: #fff;
-    transition: .2s ease;
+    transition: color .2s ease;
 }
 
 .tabs__btn:hover {
