@@ -451,3 +451,83 @@ h3 {
 .tab-content__img-four {
     background: transparent url('../img/how/how_four.png') no-repeat center center / cover ;
 }
+
+
+/* FAQ */
+
+.faq-container {
+    min-height: 658px;
+    margin-bottom: 100px;
+}
+
+.faq__heading {
+    padding-top: 11px;
+    padding-bottom: 32px;
+    font-size: 48px;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.faq__list-items {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 112px;
+    border-top: 1px solid #CACACA;
+}
+
+.faq__list-group:last-child {
+    border-bottom: 1px solid #CACACA;
+}
+
+.faq__list-heading {
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 32px;
+}
+
+.faq__list-btn {
+    position: relative;
+    width: 50px;
+    height: 50px;
+    border: 0;
+    border-radius: 50%;
+    background-color: #CACACA;
+    cursor: pointer;
+}
+
+.faq__list-btn::before {
+    content: '';
+    position: absolute;
+    width: 31px;
+    height: 1px;
+    left: 10px;
+    background-color: #000;
+    transform: rotate(90deg);
+}
+
+.faq__list-btn::after {
+    content: '';
+    position: absolute;
+    width: 31px;
+    height: 1px;
+    top: 25px;
+    right: 9px;
+    background-color: #000;
+
+}
+
+.hidden {
+    display: none;
+}
+
+.faq__list-btn:hover,
+.faq__list-btn:focus {
+    background-color: #F90;
+    transition: .2s ease;
+}
+
+.faq__list-btn:hover::before,
+.faq__list-btn:hover::after {
+    background-color: #fff;
+}
