@@ -531,3 +531,117 @@ h3 {
 .faq__list-btn:hover::after {
     background-color: #fff;
 }
+
+/* Footer */
+.footer {
+    background-color: #000;
+}
+
+.footer-container {
+    display: flex;
+    align-items: center;
+    min-height: 594px;
+}
+
+.footer__left {
+    display: flex;
+    flex-direction: column;
+    width: 252px;
+    height: 494px;
+    margin-right: 349px;
+}
+
+.footer__logo-link {
+    margin-bottom: 20px;
+}
+
+.footer__nav {
+    height: 252px;
+    margin-bottom: 90px;
+}
+
+.footer__nav-link {
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 36px;    
+    color: #CACACA;
+}
+
+.footer__midl {
+    width: 570px;
+    min-height: 494px;
+    margin-right: 236px;
+}
+
+.footer__from {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.footer__midl-heading {
+    margin-bottom: 25px;
+    font-size: 48px;
+    font-weight: 400;
+    line-height: normal;    
+    color: #CACACA;
+}
+
+.footer__input {
+    padding: 14px 21px;
+    margin-bottom: 25px;
+    height: 60px;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 32px;
+    color: #CACACA;
+    border: 0;
+    border-radius: 16px;
+    background-color: #414141;
+}
+
+.footer__message {
+    margin-bottom: 32px;
+    height: 150px;
+    padding: 14px 24px;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 32px;
+    color: #CACACA;
+    border: 0;
+    border-radius: 16px;
+    background-color: #414141;
+    resize: none;
+}
+
+.footer__btn-submit {
+    width: 269px;
+    height: 58px;
+    margin: 0 auto;
+    padding: 19px 38px;
+    text-align: center;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: normal;
+    color: #FFF;
+}
+
+.footer__right {
+    display: flex;
+    align-items: center;
+    max-width: 363px;
+    height: 320px;
+}
+
+.footer__right-desc {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 32px;
+    color: #CACACA;
+}
+
+.footer__social {
+    display: flex;
+    justify-content: space-between;
+    width: 145px;
+}
